@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <h1>Netflix clone front-end</h1>
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
-      <Row title="Recently Released" fetchUrl={requests.fetchLatest} />
+      <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
       <Row title="Upcoming" fetchUrl={requests.fetchUpcoming} />
-      <Row title="By Genre" fetchUrl={requests.fetchGenre} />
+      <Row title="Now Playing" fetchUrl={requests.fetchNowPlaying} />
       <Row title="Airing Today on Netflix" fetchUrl={requests.fetchAiringToday} />
     </div>
   );
