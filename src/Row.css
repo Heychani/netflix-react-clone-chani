@@ -6,8 +6,15 @@
   margin-right: 10px;
 }
 
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
 .row__posters {
   display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
 }
 
 .row__poster:hover {
