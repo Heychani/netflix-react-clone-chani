@@ -8,7 +8,8 @@ function App() {
     <body>
     <h1>NETFLIX</h1>
     <div className="App">
-      <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
+      <Row title="Trending Now" fetchUrl={requests.fetchTrending}
+      isLargeRow />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
       <Row title="Upcoming" fetchUrl={requests.fetchUpcoming} />
       <Row title="Now Playing" fetchUrl={requests.fetchNowPlaying} />
