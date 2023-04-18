@@ -1,0 +1,19 @@
+.movie_desc {
+  margin: 20px;
+  color: #ffff;
+  width: 50%;
+}
+
+.movie_title {
+  color: #ffff;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  color: #ffff;
+  font-weight: 800;
+  font-size: 16px;
+  margin-left: 10px;
+}
