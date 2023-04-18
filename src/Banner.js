@@ -20,7 +20,7 @@ const Banner = () => {
     }, []);
 
     console.log(movie);
-
+//Still working on the banner, the path is not working. Will figure this one out after work
   return (
     <header className="banner"
     style={{
