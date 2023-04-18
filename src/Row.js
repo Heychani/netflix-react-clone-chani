@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from './axios';
 import "./Row.css";
-import "./App";
+// import "./App";
 // import requests from './requests';
 
 const base_url = "https://image.tmdb.org/t/p/original";
@@ -21,7 +21,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
         fetchData(); //calling the function
     }, [fetchUrl]); //adding the array
 
-    console.log(movies);
+    // console.log(movies);
 
     return (
     <div className="row">
